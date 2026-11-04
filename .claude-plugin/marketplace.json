@@ -1,0 +1,15 @@
+{
+  "name": "southside",
+  "owner": { "name": "Southside" },
+  "metadata": {
+    "description": "Plugin di Claude Code dell'ecosistema Southside."
+  },
+  "plugins": [
+    {
+      "name": "southside-standard",
+      "source": "./plugins/southside-standard",
+      "description": "Standard Southside per il vibe coding: sicurezza fin dal progetto, nessun dato nel codice, regole nel backend e interfaccia dinamica, test che bloccano la pubblicazione, architettura e API documentate, interfaccia Material Design 3 con il tema Southside.",
+      "version": "1.0.0"
+    }
+  ]
+}

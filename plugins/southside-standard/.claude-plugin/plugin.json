@@ -1,0 +1,7 @@
+{
+  "name": "southside-standard",
+  "version": "1.0.0",
+  "description": "Standard Southside per il vibe coding: sicurezza fin dal progetto, nessun dato nel codice, regole nel backend e interfaccia dinamica, test che bloccano la pubblicazione, architettura e API documentate, interfaccia Material Design 3 con il tema Southside.",
+  "author": { "name": "Southside" },
+  "repository": "https://github.com/wearesouthside/southside-standard"
+}
