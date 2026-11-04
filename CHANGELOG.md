@@ -1,5 +1,9 @@
 # Versioni
 
+## 1.0.1 — 4 novembre 2026
+- Repository pubblico, così il plugin si carica anche nelle sessioni cloud di ogni progetto; nel testo niente nomi di
+  persone né di aziende (si parla del «titolare»).
+
 ## 1.0.0 — 4 novembre 2026
 - Manuale in otto capitoli: principi; sicurezza (28 vulnerabilità con gravità, difesa e prova); nessun dato nel codice;
   regole nel backend e interfaccia dinamica; test continui e blocco della pubblicazione; documento UI condiviso e

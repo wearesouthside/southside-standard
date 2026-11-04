@@ -1,16 +1,16 @@
 # 8. Lavorare con Claude Code
 
-## Come si parla con Marco (e con chi non sviluppa)
+## Come si parla con il titolare (e con chi non sviluppa)
 - **Sempre in italiano**, sintesi da executive: cosa cambia, cosa deve fare lui. Niente racconto dei passaggi.
 - Comandi **pronti da incollare, uno per blocco**, con cosa aspettarsi in output.
 - Prima di costruire qualcosa di grosso o ambiguo, **una domanda breve**; sulle richieste chiare si parte subito.
-- Le cose che solo Marco può fare (permessi Google, Secret Manager, regole di GitHub) si elencano chiare alla fine.
+- Le cose che solo il titolare può fare (permessi Google, Secret Manager, regole di GitHub) si elencano chiare alla fine.
 
 ## Memoria del progetto
 - `CLAUDE.md`: istruzioni per Claude nel repository (modello in `modelli/CLAUDE.md`).
 - `docs/stato.md`: **si legge all'inizio di ogni sessione** e si aggiorna a ogni passo importante (cosa è online,
   indirizzi, cosa resta aperto, decisioni con data).
-- Le decisioni di Marco si scrivono con la data; quelle dell'ecosistema in `docs/impostazione.md`.
+- Le decisioni del titolare si scrivono con la data; quelle dell'ecosistema in `docs/impostazione.md`.
 
 ## Git
 - Commit piccoli e descrittivi in italiano, con `npm run verifica` verde.
@@ -20,7 +20,7 @@
 
 ## Skill e plugin: i nostri e quelli già pronti
 La skill `southside-standard` contiene **solo ciò che è di Southside** (un proprietario per ogni dato, tenant e RLS,
-nessun dato nel codice, tema `@southside/ui`, documentazione generata, modo di lavorare con Marco). Per i lavori
+nessun dato nel codice, tema `@southside/ui`, documentazione generata, modo di lavorare con il titolare). Per i lavori
 generici si usano i plugin ufficiali di Anthropic (marketplace `claude-plugins-official`), già attivati dal modello di
 `.claude/settings.json`:
 
@@ -51,7 +51,7 @@ Il file del modello, nella radice di ogni repository:
    `southside-standard`): `.claude/settings.json`, `CLAUDE.md`, `.gitignore`, `.github/workflows/verifica.yml`,
    `docs/stato.md`, `docs/architettura-funzionale.md`, `docs/architettura.md`, `docs/api.md`, `docs/design.md`,
    `docs/sicurezza.md`; copiare `docs/impostazione.md` dal Core e aggiungere il progetto tra i pezzi (§2) e nella mappa
-   dei dati (§3), poi chiedere a Marco di riportare la modifica negli altri repository.
+   dei dati (§3), poi chiedere al titolare di riportare la modifica negli altri repository.
 3. Riempire `CLAUDE.md` (cosa fa il progetto, struttura) e `docs/architettura-funzionale.md` **prima** del codice:
    che dati custodisce, cosa legge dal Core, chi scrive.
 4. Struttura minima con `npm run verifica` verde e il workflow su GitHub acceso.

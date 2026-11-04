@@ -5,9 +5,9 @@ Standard comune: plugin `southside-standard` (skill omonima, si attiva da `.clau
 Riferimento dell'ecosistema: `docs/impostazione.md` (identico in tutti i repository).
 **All'inizio di ogni sessione leggere `docs/stato.md`** e aggiornarlo a ogni passo importante.
 
-## Come lavorare con Marco
+## Come lavorare con il titolare
 - Sempre in italiano, sintesi da executive: cosa cambia, cosa deve fare lui.
-- Marco non è uno sviluppatore: comandi pronti da incollare, uno per blocco, con l'output atteso.
+- Il titolare non è uno sviluppatore: comandi pronti da incollare, uno per blocco, con l'output atteso.
 - Prima di costruire qualcosa di grosso o ambiguo, una domanda breve; sulle richieste chiare si parte subito.
 
 ## Vincoli che non si negoziano

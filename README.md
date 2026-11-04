@@ -21,14 +21,9 @@ Esempio di riferimento: `wearesouthside/Southside-core` (`docs/impostazione.md`,
 `wearesouthside/southside-ui`.
 
 ## Installare il plugin (una volta per computer)
-Il repository è privato: serve un accesso a GitHub dell'organizzazione `wearesouthside`. Sul Mac, se non l'hai già fatto:
-
-```bash
-gh auth login
-```
-Atteso: «Logged in as …». (Se `gh` non c'è: `brew install gh`.)
-
-Poi, dentro Claude Code (in qualsiasi cartella), scrivi questi due comandi, uno alla volta:
+Il repository è pubblico (contiene solo regole e modelli, nessun dato): non serve nessun accesso.
+Nelle sessioni di Claude Code nel cloud non si installa nulla: basta il file `.claude/settings.json` nel repository
+(vedi sotto). Sul computer, dentro Claude Code (in qualsiasi cartella), scrivi questi due comandi, uno alla volta:
 
 ```
 /plugin marketplace add wearesouthside/southside-standard
@@ -75,7 +70,7 @@ npm install -g typescript-language-server typescript
 Per un progetto nuovo basta chiedere a Claude: «Avvia questo progetto con lo standard Southside». Copia i modelli
 (`CLAUDE.md`, `.gitignore`, `.github/workflows/verifica.yml`, `docs/…`) e segue il capitolo 8.
 
-## Cosa deve fare Marco su GitHub (una volta per repository)
+## Cosa deve fare il titolare su GitHub (una volta per repository)
 Settings → Branches → Add branch ruleset su `main`: richiedi il controllo «verifica» verde, blocca i push forzati e
 le cancellazioni. Così niente di rosso arriva in `main`, e quindi niente di rosso si pubblica.
 

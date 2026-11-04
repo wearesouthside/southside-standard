@@ -18,7 +18,7 @@ Il dettaglio sta nei capitoli di `manuale/`: leggi quello che serve al compito p
 | `manuale/05-test-e-pubblicazione.md` | prima di ogni commit, ogni pubblicazione, ogni test nuovo |
 | `manuale/06-interfaccia.md` | ogni pagina, componente, colore, carattere |
 | `manuale/07-architettura-e-api.md` | ogni area, dato, indirizzo nuovo; ogni integrazione tra progetti |
-| `manuale/08-lavorare-con-claude.md` | come si parla con Marco, come si tiene lo stato, git, avvio di un progetto nuovo |
+| `manuale/08-lavorare-con-claude.md` | come si parla con il titolare, come si tiene lo stato, git, avvio di un progetto nuovo |
 
 ## Le regole in una pagina (non si negoziano)
 1. **Un solo punto di verità.** Ogni dato ha un solo proprietario (il Core per anagrafiche, organizzazione, aziende,
@@ -39,7 +39,7 @@ Il dettaglio sta nei capitoli di `manuale/`: leggi quello che serve al compito p
    (`wearesouthside/southside-ui`); regole visive in `docs/design.md` del Core. Chiaro e scuro, computer e telefono.
 8. **Non si cancella nulla.** Si chiude o si archivia; ogni modifica nel registro (chi, cosa, quando, prima/dopo).
 9. **Ogni tabella ha `tenant_id`** con Row-Level Security; nessuna query senza azienda.
-10. **Italiano semplice** nei testi per le persone; Marco non è uno sviluppatore: comandi pronti, uno per blocco, con
+10. **Italiano semplice** nei testi per le persone; il titolare non è uno sviluppatore: comandi pronti, uno per blocco, con
     l'output atteso.
 
 ## Prima di dire «fatto»
@@ -50,7 +50,7 @@ Il dettaglio sta nei capitoli di `manuale/`: leggi quello che serve al compito p
 - [ ] Pagine guardate su computer e telefono, chiaro e scuro, con il tema Southside.
 - [ ] Ogni vulnerabilità toccata ha il suo test (`02-sicurezza.md`, colonna «Prova»); prima di pubblicare,
       `/security-review` sulle modifiche (e il plugin `claude-security` per le pubblicazioni importanti).
-- [ ] Sintesi per Marco: cosa cambia, cosa deve fare lui.
+- [ ] Sintesi per il titolare: cosa cambia, cosa deve fare lui.
 
 ## Cosa non fa questa skill
 Solo le regole di Southside. Per sicurezza generica, revisione del codice e `CLAUDE.md` si usano i plugin ufficiali

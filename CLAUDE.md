@@ -2,7 +2,7 @@
 
 Manuale del vibe coding di Southside e plugin di Claude Code (marketplace `southside`, plugin `southside-standard`).
 
-- Sempre in italiano, sintesi da executive; Marco non è uno sviluppatore: comandi pronti, uno per blocco, con l'output atteso.
+- Sempre in italiano, sintesi da executive; il titolare non è uno sviluppatore: comandi pronti, uno per blocco, con l'output atteso.
 - Il manuale sta **solo** in `plugins/southside-standard/skills/southside-standard/manuale/` (il plugin installato vede
   solo la sua cartella): niente copie altrove, il README rimanda lì.
 - `SKILL.md` resta corto (si carica a ogni uso): regole principali e lista di controllo; il dettaglio va nei capitoli.

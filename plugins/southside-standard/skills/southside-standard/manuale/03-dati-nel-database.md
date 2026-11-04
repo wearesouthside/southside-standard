@@ -24,7 +24,7 @@ Perché:
 
 ## Come si riconosce un dato nel codice
 Claude si ferma e propone di spostarlo quando scrive:
-- un nome proprio o una ragione sociale (`'Banca Etica'`, `'Mario'`);
+- un nome proprio o una ragione sociale (`'Banca Esempio'`, `'Mario'`);
 - una data letterale (`'2026-08-01'`) che decide un comportamento;
 - un importo o una soglia (`> 5000`, `0.22` se non è una regola di legge stabile);
 - un `if` sul nome di qualcosa (`if (area === 'Marketing')`);

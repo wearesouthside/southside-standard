@@ -23,7 +23,7 @@ Si esegue:
 - Si pubblica **solo `main`**, pulito e uguale a GitHub, con la batteria verde (lo script di pubblicazione lo controlla
   e si ferma, come `infra/c1.sh immagini` nel Core).
 - Su GitHub: **regola di protezione di `main`** con il controllo «verifica» obbligatorio e niente push forzati
-  (Settings → Branches → Add rule; lo imposta Marco).
+  (Settings → Branches → Add rule; lo imposta il titolare).
 - Le librerie (es. `southside-ui`) pubblicano un **tag di versione** solo dopo il controllo verde; i tag non si spostano.
 - Prima di pubblicare un riordino: confronto delle pagine vere prima e dopo, devono essere identiche.
 - Dopo ogni pubblicazione: una riga in `docs/stato.md` (cosa è online, da quando).
@@ -32,5 +32,5 @@ Si esegue:
 - Solo dati inventati.
 - Un errore trovato a mano diventa un test, così non torna.
 - Un test non si spegne, non si salta, non si «aggiusta» per farlo passare: si corregge il codice (o si discute con
-  Marco se è il test a essere sbagliato).
+  il titolare se è il test a essere sbagliato).
 - I test sono veloci: la verifica completa sta in pochi minuti.

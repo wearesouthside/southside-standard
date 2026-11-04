@@ -47,7 +47,7 @@ Per ogni area, sempre le stesse voci:
 1. Leggere `docs/architettura-funzionale.md` e `docs/api.md` del progetto da cui si legge (di solito il Core).
 2. Usare solo gli indirizzi pubblici; se un dato manca, si chiede di aggiungerlo al catalogo del proprietario
    (nella sessione di quel repository), non si usano gli indirizzi interni e non si copia il dato da altre parti.
-3. Chiedere a Marco l'identità di servizio e il ruolo nel proprietario dei dati.
+3. Chiedere al titolare l'identità di servizio e il ruolo nel proprietario dei dati.
 4. Tenere una vista locale solo in lettura, aggiornata con `?modificati_dal=` (margine di 5 minuti, doppioni scartati per id).
 5. Descrivere l'integrazione nella propria `docs/architettura-funzionale.md` (sezione «Chi parla con il servizio» e flussi).
 

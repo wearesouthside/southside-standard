@@ -1,7 +1,7 @@
 # 1. Principi
 
 ## Perché questo manuale
-A Southside il software si costruisce con Claude Code: chi decide (Marco e i responsabili) descrive cosa serve, Claude
+A Southside il software si costruisce con Claude Code: chi decide (il titolare e i responsabili) descrive cosa serve, Claude
 scrive il codice. È veloce, ma senza regole comuni ogni progetto prende una strada diversa: dati copiati in più posti,
 numeri diversi tra due app, password nel codice, pagine diverse una dall'altra. Questo manuale è il patto comune: Claude
 lo applica in ogni repository, chi rivede il lavoro lo usa come lista di controllo.
